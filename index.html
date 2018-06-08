@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- WEBSITE TITLE -->
-		<title></title>
+		<title>Colorful Flat</title>
+		<!-- FAVICON -->
+		<link rel="shortcut icon" href="img/colorfulFlatLogo.png">
 		<!-- FONT AWESOME LINK -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- GOOGLE FONTS LINK -->
@@ -19,22 +21,22 @@
 	<body>
 		<!-- NAVIGATION BAR -->
 		<nav class="navbar navbar-expand-lg navbar-light">
-		  <a class="navbar-brand"><i class="fas fa-heart px-2"></i>COLORFUL FLAT</a>
+		  <a class="navbar-brand d-flex"><img src="img/colorfulFlatLogo.png" alt="Colorful Logo" class="logo px-2"><h1 class="d-inline mb-0">COLORFUL FLAT</h1></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav ml-auto">
-					<a class="nav-item nav-link mx-4" href="#">Home</a>
-		      <a class="nav-item nav-link mx-4" href="#">Services</a>
-		      <a class="nav-item nav-link mx-4 active" href="#">Portfolio <span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link mx-4" href="#">Blog</a>
-					<a class="nav-item nav-link mx-4" href="#">Contact</a>
+		  <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+		    <div class="navbar-nav ml-auto justify-content-between">
+					<a class="nav-item nav-link" href="#">Home</a>
+		      <a class="nav-item nav-link" href="#">Services</a>
+		      <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#">Blog</a>
+					<a class="nav-item nav-link" href="#">Contact</a>
 		    </div>
 		  </div>
 		</nav>
-		<!-- ROW ONE -->
-		<div class="container-flex text-center">
+		<!-- CONTAINER ONE BLUE -->
+		<div class="one container-flex text-center">
 			<div class="row mx-0 py-5 row-one">
 				<h3 class="col-12 col-lg-6 offset-lg-0 ml-lg-auto my-auto display-4 font-weight-bold text-white">THIS TEMPLATE<br>IS AWESOME!</h3>
 				<div class="col-10 offset-1 my-5 col-lg-5 offset-lg-0 my-lg-0 mr-lg-auto">
@@ -42,36 +44,64 @@
 				</div>
 			</div>
 		</div>
-		<!-- ROW TWO -->
-		<div class="container-flex text-center">
-			<div class="row mx-0 row-two mx-auto justify-content-around">
-				<div class="col-12 col-lg-4 offset-lg-0 mx-auto pt-5">
+		<!-- CONTAINER TWO WHITE -->
+		<div class="two container-flex text-center">
+			<div class="row row-two mx-auto justify-content-around py-5">
+				<div class="col-12 col-lg-4 offset-lg-0 mx-auto">
 					<img src="https://v1.cyberbytes.co/img/blog/flat-design.png" alt="iMac Screen" class="img-fluid pb-4">
 					<h3>Flat Design</h3>
 					<p class="mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<div class="col-12 col-lg-4 offset-lg-0 mx-auto pt-5">
+				<div class="col-12 col-lg-4 offset-lg-0 mx-auto">
 					<img src="http://www.edwinmsarmiento.com/wp-content/uploads/2017/08/energy.png" alt="Light Bulb" class="img-fluid pb-4">
 					<h3>Great Ideas</h3>
 					<p class="mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<div class="col-12 col-lg-4 offset-lg-0 mx-auto pt-5">
+				<div class="col-12 col-lg-4 offset-lg-0 mx-auto">
 					<img src="https://ptaaccounting.com/wp-content/uploads/2017/10/Web-Browser-e1509625994277.png?x92275" alt="Browser" class="img-fluid pb-4">
 					<h3>Browser Compatibility</h3>
 					<p class="mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
 		</div>
+		<!-- CONTAINER THREE GREEN -->
+		<div class="three container-flex text-center">
+			<section class="row row-three mx-auto">
+				<h3 class="col-12 display-4 font-weight-bold text-white mx-auto mt-5">RECENT WORKS</h3>
+				<p class="col-12 text-white px-4 px-sm-0 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</section>
+			<section class="row row-four mx-auto no-gutters text-center mt-5">
+				<div class="d-flex one col-8 offset-2 col-lg-4">
+					<button class="btn mx-auto nav-item active" type="button" name="button">ALL <span class="sr-only">(current)</span></button>
+		      <button class="btn mx-auto nav-item active" type="button" name="button">WEB</button>
+		      <button class="btn mx-auto nav-item active" type="button" name="button">MOBILE</button>
+				</div>
+				<div class="d-flex two col-8 offset-2 col-lg-4 offset-lg-0 ">
+					<button class="btn mx-auto nav-item active" type="button" name="button">PHOTOGRAPHY</button>
+					<button class="btn mx-auto nav-item active" type="button"	 name="button">DESIGN</button>
+					<button class="btn mx-auto nav-item active" type="button" name="button">TYPE</button>
+				</div>
+			</section>
+			<section class="row row-five text-center no-gutters justify-content-center mt-3">
+				<div class="col-5 col-lg-4"><img class="img-fluid" src="img/farm1.jpeg" alt="Farm"></div>
+				<div class="col-5 col-lg-4"><img class="img-fluid" src="img/farm2.jpeg" alt="Farm"></div>
+				<div class="col-5 col-lg-4"><img class="img-fluid" src="img/farm3.jpeg" alt="Farm"></div>
+				<div class="col-5 col-lg-4"><img class="img-fluid" src="img/farm4.jpeg" alt="Farm"></div>
+				<div class="col-5 col-lg-4"><img class="img-fluid" src="img/farm5.jpeg" alt="Farm"></div>
+				<div class="col-5 col-lg-4"><img class="img-fluid" src="img/farm6.jpeg" alt="Farm"></div>
+			</section>
+		</div>
 
 
 
 		<!-- JQUERY SCRIPT -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<!-- POPPER SCRIPT -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<!-- JS SCRIPT -->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 		<!-- EXTERNAL JS SCRIPT -->
-		<script type="text/javascript" src="js/main.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
