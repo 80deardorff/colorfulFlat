@@ -64,36 +64,36 @@ div.row-two div img {
 div.three {
   background-color: #99d3a7;
 }
-div.row-three h3 {
+section.row-three h3 {
   font-family: 'Noto Serif', serif;
 }
-div.row-three p {
+section.row-three p {
   max-width: 530px;
 }
 /* ROW FOUR */
-div.row-four button {
+section.row-four button {
   padding: 4px 6px;
   color: #ffffff;
   background-color: #99d3a7;
   border: 2px solid #99d3a7;
   border-radius: 6px;
 }
-div.row-four button.btn:hover {
+section.row-four button.btn:hover {
   border: 2px solid #ffffff;
 }
-div.row-four button.btn.active:active,
-div.row-four button.btn:focus {
+section.row-four button.btn.active:active,
+section.row-four button.btn:focus {
   border: 2px solid #ffffff;
   background-color: #ffffff;
   color: #99d3a7;
   box-shadow: none;
 }
 /* ROW FIVE */
-div.row-five div {
+section.row-five div {
   margin: 15px;
   height: 200px;
 }
-div.row-five div img {
+section.row-five div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
