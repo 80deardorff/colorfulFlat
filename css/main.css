@@ -95,6 +95,10 @@ section.row-five div img {
   width: 235px;
   object-fit: cover;
 }
+/* ROW SIX */
+div.four {
+  background-color: #f0f0f0;
+}
 /* NAV BAR MEDIA QUERIES */
 @media (max-width: 991px) {
   a.nav-item {
