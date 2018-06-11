@@ -89,13 +89,10 @@ section.row-four button.btn:focus {
   box-shadow: none;
 }
 /* ROW FIVE */
-section.row-five div {
-  margin: 15px;
-  height: 200px;
-}
 section.row-five div img {
-  width: 100%;
-  height: 100%;
+  padding: : 15px;
+  height: 172px;
+  width: 235px;
   object-fit: cover;
 }
 /* NAV BAR MEDIA QUERIES */
